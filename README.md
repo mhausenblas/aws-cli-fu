@@ -1,5 +1,5 @@
 # aws-cli-fu
-Collection of my favorite AWS CLI calls
+Collection of my favorite AWS CLI calls, derived from `history` command and sanitized.
 
 ## General
 
