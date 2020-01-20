@@ -1,6 +1,15 @@
 # aws-cli-fu
 Collection of my favorite AWS CLI calls, derived from `history` command and sanitized.
 
+I'm using tmux with [aws-tmux](https://github.com/mhausenblas/aws-tmux) for the status and my global config is as follows:
+
+```sh
+$ cat ~/.aws/config
+[default]
+region = us-west-2
+output = json
+```
+
 ## General
 
 ```sh
