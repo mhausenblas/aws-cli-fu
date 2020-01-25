@@ -110,3 +110,11 @@ aws elbv2 describe-tags --resource-arns arn:aws:elasticloadbalancing:us-west-2:1
 
 aws elb describe-tags --load-balancer-names MYCLB
 ```
+
+## Custom CLIs
+
+- `eksctl`
+- `sam`
+- `ecs-cli`
+
+
