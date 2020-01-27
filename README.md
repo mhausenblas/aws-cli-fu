@@ -113,8 +113,10 @@ aws elb describe-tags --load-balancer-names MYCLB
 
 ## Custom CLIs
 
-- `eksctl`
-- `sam`
-- `ecs-cli`
+There are couple of cases where I use, in addition to `aws` some custom CLIs. Some of them are maintained by ourselves, others by partners:
+
+- For managing EKS clusters (creating, adding nodes, etc.) I'm using `eksctl`, see [eksctl.io](https://eksctl.io/)
+- For managing Lambda apps, I'm using `sam`, see [awslabs/aws-sam-cli](https://github.com/awslabs/aws-sam-cli)
+- For managing ECS clusters, I'm using  `ecs-cli`, see [aws/amazon-ecs-cli](https://github.com/aws/amazon-ecs-cli)
 
 
